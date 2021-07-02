@@ -1,0 +1,8 @@
+pattern_log
+.vscode
+__pycache__
+PatternNet/
+train/
+validation/
+model.h5
+dataset/

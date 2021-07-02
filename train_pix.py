@@ -5,7 +5,7 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = "2"
 import numpy as np
 import scipy.io as sio
 from keras.utils import to_categorical
-from tensorflow.keras.layers import Flatten, Dense, Reshape, MaxPooling1D, Conv1D
+from tensorflow.keras.layers import Flatten, Dense, MaxPooling1D, Conv1D
 from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.models import Sequential
 
